@@ -1,0 +1,27 @@
+<div style="margin-top: 70px;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="input-group mb-3">
+          <input type="text" [(ngModel)]="searchKeyword" class="form-control" placeholder="Rechercher par nom..." aria-label="Rechercher par nom" aria-describedby="button-addon2">
+          <button class="btn btn-primary" type="button" id="button-addon2" (click)="performSearch()"><i class="bi bi-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let product of myArray">
+        <div class="product-item">
+          <app-product-details [product]="product" (ed)="updateProduct(product)" (del)="deleteProduct(product.id)" (ach)="purchase1(product)"></app-product-details>
+          <div *ngIf="showSuccessMessage" class="success-message">
+            <!-- Success message content -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

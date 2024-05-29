@@ -1,0 +1,31 @@
+<div class="parent">
+  <div class="container">
+    <div class="left-content">
+      <h2>Create Account</h2>
+      <form #registerForm="ngForm" (ngSubmit)="onSubmit(registerForm)">
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" ngModel required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" ngModel required minlength="8">
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" ngModel required>
+          <small>Le mot de passe doit contenir au moins 8 caractères.</small>
+        </div>
+        <div class="button-group">
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+    <div class="right-content">
+      <h2>You already have an account?</h2>
+      <p>Sign in and start now!</p>
+      <button class="signup-button" (click)="goToLogin()">Sign In</button>
+    </div>
+    
+  </div>
+</div>

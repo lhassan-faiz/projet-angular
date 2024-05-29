@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.parent {
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #F7B785, #5B98FF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #F7B785, #5B98FF);
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+  display: flex;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.left-content, .right-content {
+  padding: 20px;
+}
+
+.left-content {
+  width: 45%; /* Adjusted to make it smaller */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+   /* Move it slightly to the left */
+}
+
+.signup-message {
+  font-size: 20px; /* Made the text a bit larger */
+  font-weight: 600;
+  line-height: 1.5;
+  color: #333;
+}
+.signup-button {
+  background-color: #512da8;
+  color: #fff;
+  font-size: 14px; /* Adjusted the font size */
+  padding: 10px 20px; /* Adjusted the padding */
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 20px; /* Added margin-top */
+  cursor: pointer;
+}
+
+.right-content {
+  width: 55%; /* Adjusted to make it larger */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.input-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.button-group {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.button-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #512da8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.link-group {
+  margin-top: 10px;
+  text-align: right;
+  width: 100%;
+}
+
+.link-group a {
+  color: #512da8;
+  text-decoration: none;
+  font-size: 14px;
+}

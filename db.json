@@ -1,0 +1,233 @@
+{
+  "products": [
+    {
+      "id": "1716830300530",
+      "name": "Ipad air 2022",
+      "description": "oosté par la puce Apple M1. Caméra avant ultra grand‑angle 12 Mpx ",
+      "quantity": 10,
+      "price": 799,
+      "img": "https://uno.ma/pub/media/catalog/product/cache/af8d7fd2c4634f9c922fba76a4a30c04/l/d/ld0005936052_1_0005936057.jpeg",
+      "category": "tablet"
+    },
+    {
+      "id": "1716908384261",
+      "name": "Iphone 13",
+      "description": "The iPhone 13 boasts a sleek design with a stunning Super Retina XDR display.",
+      "quantity": 0,
+      "price": 1090,
+      "img": "https://m.media-amazon.com/images/I/61-r9zOKBCL._FMwebp__.jpg",
+      "category": "phone"
+    },
+    {
+      "id": "1716913087816",
+      "name": "DELL G15 Gaming laptop",
+      "description": "Dell G15 5530 Gaming Laptop - Raptor Lake - 13th Gen Core i7 13650HX \n",
+      "quantity": 12,
+      "price": 880,
+      "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/g-series-16-7630-laptop-lf-800x620.png?fmt=png-alpha&wid=800&hei=620",
+      "category": "pc"
+    },
+    {
+      "id": "1716932746823",
+      "name": "Macbook pro13",
+      "description": "",
+      "quantity": 19,
+      "price": 999,
+      "img": "https://www.tera.ma/wp-content/uploads/2021/12/MacBook-Pro-2017-3.jpg",
+      "category": "pc"
+    },
+    {
+      "id": "1716932847381",
+      "name": "samsung s24",
+      "description": "",
+      "quantity": 19,
+      "price": 1050,
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/fr/sm-s928bzkheub/gallery/fr-galaxy-s-sm-s928bzkheub-deviceback-titanium-black-540354564?$720_576_JPG$",
+      "category": "phone"
+    },
+    {
+      "id": "1716933119071",
+      "name": "huawei p60 pro",
+      "description": "",
+      "quantity": 14,
+      "price": 300,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPdNmhG4FiB9-8zQVyz_B5-nojVrmop-0q0A&s",
+      "category": "phone"
+    },
+    {
+      "id": "1716933266806",
+      "name": "HP elitbook G8",
+      "description": "",
+      "quantity": 50,
+      "price": 440,
+      "img": "https://i5.walmartimages.com/seo/HP-Pavilion-13-3-FHD-Intel-Core-i3-8GB-RAM-128GB-SSD-Silver_906cf222-d138-430a-8146-d129b0cca3a2_2.f838f300a6e31f50074faf4091a1da7b.jpeg",
+      "category": "pc"
+    },
+    {
+      "id": "1716933480755",
+      "name": "lenovo ideapad 3i",
+      "description": "",
+      "quantity": 24,
+      "price": 499,
+      "img": "https://i5.walmartimages.com/seo/Lenovo-IdeaPad-3i-14-FHD-Laptop-Intel-Core-i5-1135G7-8GB-256GB-SSD-Windows-11-Platinum-Grey-81X700FVUS_70701446-e63a-4490-a792-f7fdd3f7df00.8ede4ef5dbddddbc3d98b5a7383c53a0.jpeg",
+      "category": "pc"
+    },
+    {
+      "id": "1716934167597",
+      "name": "galaxy tab 8 ",
+      "description": "",
+      "quantity": 9,
+      "price": 1000,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmn9Wc_yiaOFyDSW84As7rUoMGZHcfcXX6tnS9rLJbnQ&s",
+      "category": "tablet"
+    },
+    {
+      "id": "1716934261971",
+      "name": "galxy tab8",
+      "description": "",
+      "quantity": 8,
+      "price": 1222,
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/n_africa/sm-x816bzaamwd/gallery/n-africa-galaxy-tab-s9-plus-5g-x816-sm-x816bzaamwd-537909528?$650_519_PNG$",
+      "category": "tablet"
+    }
+  ],
+  "users": [
+  
+ 
+    {
+      "id": "2111",
+      "email": "hassan1@gmail.com",
+      "password": "00001111",
+      "roles": [
+        null
+      ]
+    },
+    {
+      "id": "21111",
+      "email": "hhhhhh2@gmail.com",
+      "password": "22222222",
+      "roles": [
+        "USER"
+      ]
+    },
+
+
+    {
+      "id": "21111111",
+      "email": "test",
+      "password": "12345678",
+      "roles": [
+        "USER"
+      ]
+    },
+    {
+      "id": "211111111",
+      "email": "hassan",
+      "password": "12345678",
+      "roles": [
+        "USER"
+      ]
+    },
+
+    {
+      "id": "21111111111",
+      "email": "lhassanfaiz01@gmail.com",
+      "password": "12345678",
+      "roles": [
+        "USER"
+      ]
+    },
+
+    {
+      "id": "2111111111111",
+      "email": "Pr.KOUISSI@gmail.com",
+      "password": "00000000",
+      "roles": [
+        "USER"
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "id": "4080e716-d7ae-4e38-a173-3e7c64a703d3",
+      "email": "ismail",
+      "productId": "1716830300530",
+      "quantity": 1,
+      "productName": "fdjfhjfdh",
+      "price": 126,
+      "image": "https://m.media-amazon.com/images/I/51rp0nqaPoL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "50559e63-4591-4582-9bce-7d80df1bccad",
+      "email": "ismail",
+      "productId": "1716830300530",
+      "quantity": 1,
+      "productName": "fdjfhjfdh",
+      "price": 126,
+      "image": "https://m.media-amazon.com/images/I/51rp0nqaPoL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "f40246c4-e77a-4ed9-bec4-38c139d2eddd",
+      "email": "ismail",
+      "productId": "1716830300530",
+      "quantity": 1,
+      "productName": "fdjfhjfdh",
+      "price": 126,
+      "image": "https://m.media-amazon.com/images/I/51rp0nqaPoL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "1cf57072-e794-4249-9072-d0cc4a09d624",
+      "email": "hassan",
+      "productId": "1716933119071",
+      "quantity": 1,
+      "productName": "huawei p60 pro",
+      "price": 300,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPdNmhG4FiB9-8zQVyz_B5-nojVrmop-0q0A&s"
+    },
+    {
+      "id": "834957de-37e8-4a7e-b6e9-b261c540b3d0",
+      "email": "hassan",
+      "productId": "1716913087816",
+      "quantity": 1,
+      "productName": "DELL G15 Gaming laptop",
+      "price": 880,
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/g-series-16-7630-laptop-lf-800x620.png?fmt=png-alpha&wid=800&hei=620"
+    },
+    {
+      "id": "2f6587e5-e882-4b7d-bb5b-f3043273fc03",
+      "email": "hassan",
+      "productId": "1716913087816",
+      "quantity": 1,
+      "productName": "DELL G15 Gaming laptop",
+      "price": 880,
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/g-series-16-7630-laptop-lf-800x620.png?fmt=png-alpha&wid=800&hei=620"
+    },
+    {
+      "id": "5595aa57-3406-411b-97f3-72d1d5e7531f",
+      "email": "hassan",
+      "productId": "1716908384261",
+      "quantity": 1,
+      "productName": "Iphone 13",
+      "price": 1090,
+      "image": "https://m.media-amazon.com/images/I/61-r9zOKBCL._FMwebp__.jpg"
+    },
+    {
+      "id": "67113799-cf76-4c77-a1c9-be3f7bdfb35e",
+      "email": "hassan",
+      "productId": "1716908384261",
+      "quantity": 1,
+      "productName": "Iphone 13",
+      "price": 1090,
+      "image": "https://m.media-amazon.com/images/I/61-r9zOKBCL._FMwebp__.jpg"
+    },
+    {
+      "id": "3d1ca5f8-ecfd-45f6-a998-724314d30da2",
+      "email": "hassan",
+      "productId": "1716933480755",
+      "quantity": 1,
+      "productName": "lenovo ideapad 3i",
+      "price": 499,
+      "image": "https://i5.walmartimages.com/seo/Lenovo-IdeaPad-3i-14-FHD-Laptop-Intel-Core-i5-1135G7-8GB-256GB-SSD-Windows-11-Platinum-Grey-81X700FVUS_70701446-e63a-4490-a792-f7fdd3f7df00.8ede4ef5dbddddbc3d98b5a7383c53a0.jpeg"
+    }
+  ]
+}

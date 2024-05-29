@@ -1,0 +1,101 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a basic font and spacing */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Style the container */
+.container {
+  padding: 20px;
+}
+
+/* Style the product list */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Style each product item */
+.product-item {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style product image */
+.product-price img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Style product details */
+.product-details {
+  margin-top: 10px;
+}
+
+/* Style product name */
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style product category */
+.product-category {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Style product price */
+.product-price {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+/* Style product quantity */
+.quantity {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #c0392b;
+}
+
+/* Style accordion */
+.accordion {
+  margin-top: 10px;
+}
+
+.accordion-body {
+  margin-top: 10px;
+}
+
+/* Style accordion summary */
+summary {
+  cursor: pointer;
+  outline: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary {
+  font-weight: bold;
+  color: #3498db;
+}
+
+/* Style accordion content */
+.details {
+  margin-top: 10px;
+}

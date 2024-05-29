@@ -1,0 +1,28 @@
+<div class="parent">
+  <div class="container">
+    <div *ngIf="errorMessage" class="error-message">{{errorMessage}}</div>
+    <div class="left-content">
+      <h3 class="signup-message">You don't have an account? </h3>
+      <p> Don't miss this experience <br> Sign up Now !!</p>
+      <button class="signup-button" (click)="goToRegister()">Sign Up</button> <!-- New button added here -->
+    </div>
+    <div class="right-content">
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <h1 class="welcome-message">Welcome Back</h1>
+        <p>Please login to your account</p>
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" class="form-control" formControlName="username" autocomplete="username">
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" formControlName="password" autocomplete="current-password">
+        </div>
+        <div class="button-group">
+          <button type="submit" (click)="onSubmit()">Log in</button>
+        </div>
+        <div class="link-group"><a href="">Forgot password?</a></div>
+      </form>
+    </div>
+  </div>
+</div>

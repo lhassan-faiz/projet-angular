@@ -1,0 +1,22 @@
+/* Keep the existing styles */
+.navbar-fixed-top {
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Ensure that the navigation bar is above other content */
+}
+
+.welcome-section {
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative; /* Add position relative to serve as reference for absolute positioning */
+}
+
+.welcome-section .btn-container {
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+  
+}

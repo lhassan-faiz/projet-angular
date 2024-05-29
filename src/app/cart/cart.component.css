@@ -1,0 +1,58 @@
+/* Custom CSS for Cart Items */
+Style the card */
+.card {
+  height: 100%;
+}
+
+
+/* Style the card body */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Style the card title */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Style the card text */
+.card-text {
+  font-size: 1rem;
+  
+}
+
+/* Style the card image */
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+  width: 100%; /* Ensure the image takes the full width */
+  max-height: 200px; /* Fixed height for consistency */
+  object-fit: contain; /* Ensure the entire image is visible */
+  border-radius: 4px; /* Set a fixed height for consistency */
+}
+
+/* Style the card button */
+.btn {
+  width: 100%;
+}
+
+/* Ensure all cards have the same height */
+.row [class^="col-"] {
+  height: 100%;
+}
+/* Style the footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Adjust background color as needed */
+  padding: 10px; /* Reduce padding for smaller footer */
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for separation */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}

@@ -1,0 +1,74 @@
+
+
+<body >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+          <!-- loggo -->
+        <a class="navbar-brand fs-4" href="#">ZAG-shop</a>
+        <!-- toogle button -->
+        <button class="navbar-toggler shodow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- SideBar-->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+          <!-- Sidebar Header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ZAG-shop</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <!-- SideBody -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" routerLink="/catalog/Accueil">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/catalog/product">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/catalog/categories">categories </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link custom-link" routerLink="/catalog/cart"><i class="bi bi-cart-check-fill text-warning bi-2x"></i></a>
+              </li>
+              @if (authservice.hasRole('ADMIN')) {
+                <li class="nav-item">
+                  <a class="nav-link active" routerLink="/catalog/create-product"><i class="bi bi-box-arrow-in-up"> Add product</i></a>
+                </li>}
+             
+            </ul>
+
+            <!-- <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+
+            <!-- login / sign-up -->
+            <div class="d-flex flex-column justify-content-center
+            align-items-center flex-lg-row  gap-3">
+            <a class="text-white">Login</a>
+            <a
+             (click)="logout()"
+            class="text-white text-decoration-none px-3 py-1
+            rounded-4"
+            style="background-color: #f94ca4"
+            >Sign-In</a
+            >
+            </div>  
+
+           
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- Votre contenu principal ici -->
+      <router-outlet></router-outlet>
+    </main>
+
+</body>
+
+

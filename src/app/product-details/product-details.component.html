@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row products">
+    <div class="col-md-12">
+      <div class="product">
+        <div class="product-details">
+          <!-- Product Image -->
+          <img [src]="product.img" alt="{{ product.name }}" class="img-fluid product-img" />
+
+          <!-- Product Information -->
+          <div class="product-info">
+            <!-- Product Title -->
+            <div class="name">{{ product.name }}</div>
+
+            <!-- Promotion Information -->
+            <div *ngIf="product.onPromotion" class="promotion">On Promo</div>
+
+            <!-- Product Category -->
+            <div class="category">Category: {{ product!.category }}</div>
+
+            <!-- Product Quantity -->
+            <div class="quantity">
+              Quantity: {{ product.quantity }}
+              <div *ngIf="product.quantity === 0">Produit épuisé !</div>
+            </div>
+
+            <!-- Product Price -->
+            <div class="price">Price: ${{ product.price }}</div>
+
+            <!-- Product Description -->
+            <div *ngIf="!showDetails" class="description text-muted custom-product-description">
+              {{ product.description | slice:0:100 }}
+              <button class="btn btn-link text-muted btn-light" (click)="toggleDetails()"><b>Show more</b></button>
+            </div>
+
+            <div *ngIf="showDetails">
+              <p>{{ product.description }}</p>
+              <button class="btn btn-link text-muted btn-light" (click)="toggleDetails()"><b>Hide details</b></button>
+            </div>
+
+            <!-- Buy Now Button -->
+            <button class="cta" *ngIf="!auth.hasRole('ADMIN')" [disabled]="product.quantity === 0" (click)="purchase2(product)">Buy Now</button>
+
+            <!-- Admin Actions -->
+            <ng-container *ngIf="auth.hasRole('ADMIN')">
+              <button class="btn btn-danger cta" (click)="onDeleteProduct(product.id)">
+                <i class="bi bi-trash"></i>
+              </button>
+              <button class="btn btn-warning cta" (click)="onUpdate(product)">
+                <i class="bi bi-pencil"></i>
+              </button>
+              <button class="btn btn-info cta" (click)="togglePromotion()">
+                <i class="bi bi-tag-fill"></i> {{ product.onPromotion ? 'Retirer Promo' : 'Mettre en Promo' }}
+              </button>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
